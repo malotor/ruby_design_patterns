@@ -71,5 +71,5 @@ FORMATTER = lambda do |context|
   end
 end
 
-my_recipe = Recipe.new(make_batter_task, &FORMATTER)
+my_recipe = Recipe.new make_batter_task  &FORMATTER)
 my_recipe.print
